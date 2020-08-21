@@ -1,0 +1,175 @@
+#first {
+	background-image: url(https://images.pexels.com/photos/1473215/pexels-photo-1473215.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+}
+#contend {
+	background-image: url(https://images.pexels.com/photos/7477/night-trees-stars.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+}
+
+.moves {
+	color: lightgray;
+	font-size: 20px;
+	margin-left: 140px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
+		sans-serif;
+	font-style: normal;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.best {
+	margin-left: 530px;
+	color: lightgray;
+	font-size: 20px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
+		sans-serif;
+	font-style: normal;
+}
+
+.count {
+	margin: 10px;
+	margin-left: 160px;
+	margin-right: 600px;
+	font-size: 40px;
+	font-weight: bolder;
+	font-style: normal;
+	color: lightgoldenrodyellow;
+	display: flex;
+	justify-content: space-between;
+	display: inline-flex;
+}
+
+.score {
+	font-weight: bolder;
+	font-style: normal;
+	color: lightgoldenrodyellow;
+	font-size: 40px;
+}
+
+#secondH1 {
+	text-align: center;
+	font-style: italic;
+	font-size: 50px;
+	color: lightcyan;
+	margin: 0px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	display: inline-flexbox;
+	justify-content: space-around;
+}
+.reset {
+	/* display: right; */
+	padding: 10px 30px;
+	margin: 20px;
+	margin-left: 500px;
+	margin-right: 0px;
+	margin-top: 0px;
+	font-size: 40px;
+	border: 5px solid green;
+	border-radius: 10px;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bold;
+	color: white;
+	background-color: green;
+	display: inline-block;
+}
+
+.reset:hover {
+	color: green;
+	background-color: whitesmoke;
+}
+
+.score {
+	margin: 20px auto;
+	font-size: 50px;
+	font-style: normal;
+}
+
+.inBtn {
+	margin: 80px auto;
+	padding: 10px 30px;
+	align-content: center;
+	font-family: 'Monoton', cursive;
+	font-size: 35px;
+	color: greenyellow;
+	background-color: crimson;
+	display: flex;
+	border-width: 5px;
+	border-radius: 20px;
+	border-color: cadetblue;
+}
+
+.inBtn:hover {
+	color: crimson;
+	background-color: greenyellow;
+}
+
+.inDivs {
+	text-align: center;
+	font-style: italic;
+	font-size: 120px;
+	font-family: 'Monoton', cursive;
+	color: red;
+}
+div[name='container'] {
+	display: inline-block;
+	margin: 17px;
+}
+
+.flip {
+	transform: rotateY(180deg);
+}
+
+div[name='card'] {
+	height: 300px;
+	width: 250px;
+	position: relative;
+	transition: all 0.5s linear;
+	transform-style: preserve-3d;
+}
+
+div[name='front'],
+[name='back'] {
+	height: 100%;
+	width: 100%;
+	border-radius: 20px;
+	border: 5px groove white;
+	position: absolute;
+}
+
+div[name="front"] {
+	background-image: url(https://s7.gifyu.com/images/ezgif.com-resize86af15d22f422af8.gif);
+	z-index: 2;
+	backface-visibility: hidden;
+}
+
+div[name="back"] {
+	z-index: 1;
+	transform: rotateY(180deg);
+	backface-visibility: hidden;
+}
+
+#game {
+	margin: 90px;
+	margin-left: 120px;
+	margin-top: 10px;
+	display: flexbox;
+	justify-content: center;
+	align-items: center;
+	perspective: 100000px;
+}
+
+.choclo {
+	background-image: url(https://i.ibb.co/VW6t0hQ/20200317-094746-1.png);
+}
+.elephant {
+	background-image: url(https://serving.photos.photobox.com/247052800cf9b3254f261f0b59a494505e18f522de6385fda3f3ba9290cc1f6246dd87c4.jpg);
+}
+.tiger {
+	background-image: url(https://i.ibb.co/vh9jdqs/rsz-tiger-ar.jpg);
+}
+.toucan {
+	background-image: url(https://i.ibb.co/3CgJmJD/Toucan-at-Whipsnade-Zoo.jpg);
+}
+.gorilla {
+	background-image: url(https://i.ibb.co/CWYgB1t/rsz-7a8a0979ea24c09d13666febe204cc58.jpg);
+}
